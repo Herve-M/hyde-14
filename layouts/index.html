@@ -2,7 +2,7 @@
 
 <div class="content container">
   <div class="posts">
-    {{ range where .Paginator.Pages "Type" "posts" }}
+    {{ range where .Paginator.Pages "Type" "blog" }}
     <div class="post">
       <h1 class="post-title"><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
       <span class="post-date">

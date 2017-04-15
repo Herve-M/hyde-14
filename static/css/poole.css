@@ -168,7 +168,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  /*background-color: #f9f9f9;*/
 }
 pre code {
   padding: 0;
@@ -182,6 +182,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  color: #272822;
 }
 
 /* Quotes */
